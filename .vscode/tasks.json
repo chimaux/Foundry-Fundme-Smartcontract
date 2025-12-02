@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compile Solidity",
+      "type": "shell",
+      "command": "forge build",
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}
