@@ -5,9 +5,9 @@ It enables users to fund the contract with ETH while enforcing a minimum USD val
 The contract owner can securely withdraw funds, and the project includes a full suite of unit tests, mocks, and deployment scripts following the standard Foundry structure.
 
 # Getting started
-Clone the Repository
-git@github.com:chimaux/Foundry-Fundme-Smartcontract.git
-cd foundry-fundme-f25
+1. Clone the Repository
+2. git@github.com:chimaux/Foundry-Fundme-Smartcontract.git
+3. cd foundry-fundme-f25
 
 Install Foundry
 curl -L https://foundry.paradigm.xyz | bash
