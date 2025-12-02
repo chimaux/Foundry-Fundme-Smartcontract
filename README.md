@@ -7,7 +7,7 @@ The contract owner can securely withdraw funds, and the project includes a full 
 # Getting started
 Clone the Repository
 git@github.com:chimaux/Foundry-Fundme-Smartcontract.git
-cd <your-repo>
+cd foundry-fundme-f25
 
 Install Foundry
 curl -L https://foundry.paradigm.xyz | bash
@@ -36,10 +36,10 @@ forge --version
 Run a Local Node (Anvil)
 anvil
 
-Deploy the Contract
+# Deploy the Contract
 forge script script/DeployFundMe.s.sol --rpc-url http://127.0.0.1:8545 --broadcast -vvvv
 
-Interact With the Contract
+# Interact With the Contract
 
 Fund:
 
